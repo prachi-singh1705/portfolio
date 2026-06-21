@@ -766,7 +766,7 @@ body{
         <div class="stat-label">Projects</div>
       </div>
       <div class="stat">
-        <div class="stat-number" data-target="9">0</div>
+        <div class="stat-number" data-target="10">0</div>
         <div class="stat-label">Certifications</div>
       </div>
       <div class="stat">
@@ -1178,8 +1178,8 @@ body{
         <p><span class="cert-issuer">HCLTech / Google / AICTE</span> • Oct 2024</p>
       </div>
     </div>
-
-    <!-- Certificate 5: Infosys 1 -->
+    
+    <!-- Certificate 6: Infosys 1 -->
     <div class="cert-card reveal" onclick="openCertModal(4)">
       <div class="cert-image-container">
         <img src="./certificates/infosys1.png" alt="Infosys 1" onerror="showFallback(this, '🐍', 'Python Fundamentals - Part 1', 'Infosys Springboard')">
@@ -1190,7 +1190,7 @@ body{
       </div>
     </div>
 
-    <!-- Certificate 6: Infosys 2 -->
+    <!-- Certificate 7: Infosys 2 -->
     <div class="cert-card reveal" onclick="openCertModal(5)">
       <div class="cert-image-container">
         <img src="./certificates/infosys2.png" alt="Infosys 2" onerror="showFallback(this, '🐍', 'Python Fundamentals - Part 2', 'Infosys Springboard')">
@@ -1201,7 +1201,7 @@ body{
       </div>
     </div>
 
-    <!-- Certificate 7: LinkedIn -->
+    <!-- Certificate 8: LinkedIn -->
     <div class="cert-card reveal" onclick="openCertModal(6)">
       <div class="cert-image-container">
         <img src="./certificates/linkedin.png" alt="LinkedIn" onerror="showFallback(this, '💡', 'What Is Generative AI?', 'LinkedIn Learning')">
@@ -1212,7 +1212,7 @@ body{
       </div>
     </div>
 
-    <!-- Certificate 8: LearnVern -->
+    <!-- Certificate 9: LearnVern -->
     <div class="cert-card reveal" onclick="openCertModal(7)">
       <div class="cert-image-container">
         <img src="./certificates/learnvern.png" alt="LearnVern" onerror="showFallback(this, '📝', 'HTML & HTML5 Course', 'LearnVern / NSDC')">
@@ -1223,7 +1223,7 @@ body{
       </div>
     </div>
 
-    <!-- Certificate 9: PW -->
+    <!-- Certificate 10: PW -->
     <div class="cert-card reveal" onclick="openCertModal(8)">
       <div class="cert-image-container">
         <img src="./certificates/pw.png" alt="PW" onerror="showFallback(this, '🧠', 'Amazon ML Recommendations', 'Physics Wallah')">
@@ -1233,6 +1233,19 @@ body{
         <p><span class="cert-issuer">Physics Wallah</span> • Jan 2025</p>
       </div>
     </div>
+
+    <!-- AWS Certificate -->
+<div class="cert-card reveal" onclick="openCertModal(9)">
+  <div class="cert-image-container">
+    <img src="./certificates/aws-sap.png" alt="AWS SAP Fundamentals"
+         onerror="showFallback(this, '☁️', 'AWS for SAP Fundamentals', 'AWS Training & Certification')">
+  </div>
+
+  <div class="cert-overlay">
+    <h4>AWS for SAP Fundamentals</h4>
+    <p><span class="cert-issuer">AWS Training & Certification</span> • Apr 2026</p>
+  </div>
+</div>
 
   </div>
 </section>
@@ -1452,7 +1465,8 @@ const certImages=[
   './certificates/infosys2.png',
   './certificates/linkedin.png',
   './certificates/learnvern.png',
-  './certificates/pw.png'
+  './certificates/pw.png',
+  './certificates/aws-sap.png'
 ];
 
 function showFallback(imgElement, icon, title, org){
